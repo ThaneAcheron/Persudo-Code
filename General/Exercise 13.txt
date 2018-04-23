@@ -1,0 +1,26 @@
+Begin 
+
+     Gpay = 0 
+     hours = 0 
+     print "please enter the employee number." 
+     input empnumber
+
+while empnumber = 0 
+
+     Print "Please enter the name,hours worked, rate of pay." 
+     input emphours,name,ratepay
+    
+     gross = hours*ratepay 
+     print name, emphours, ratepay, gross, empnumber
+ 
+     hours =  hours + emphours
+     Gpay = Gpay + gross 
+
+     print "please enter the employee number." 
+     input empnumber
+
+Endwhile 
+
+     print hours, Gpay
+
+End

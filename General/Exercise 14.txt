@@ -1,0 +1,61 @@
+Begin 
+     fail = 0 
+     supp = 0 
+     third = 0 
+     seccond = 0 
+     upper = 0
+     first = 0 
+
+     print "please enter the studentnumber and max score." 
+     input studno,maxscore
+
+while studno = 0 
+
+     print "please enter the name and studnetscore." 
+     input studscore,name
+     studpercent = studscore/maxscore*100 
+
+if studpercent = <1 or studpercent >44 
+
+    fail = fail + 1
+    msg = "fail" 
+
+elseif studpercent = 45 or studpercent 49
+
+    supp = supp + 1 
+    msg  = "Supplementary"
+
+elseif studpercent = 50 or studpercent 59 
+
+    third = third + 1 
+    msg = "thirdclass 
+
+elseif studpercent = 60 or studpercent 69 
+  
+   seccond = seccond + 1 
+   msg = "Seccond Class" 
+
+elseif studpercent = 70 or studpercent 74
+
+  upper = upper + 1 
+  msg = "Upper class" 
+
+elseif studpercent = 75 or studpercent 100 
+
+  first = first + 1 
+  msg = "first class" 
+
+endif 
+
+  print "please enter the student number" 
+  input studno 
+
+endwhile 
+
+print "fails: " , fail "supplementary: " , supp "Third: " ,third "Seccond: " , seccond "UpperClass: " , upper "first: "  ,first 
+
+End 
+
+
+
+     

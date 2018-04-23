@@ -1,0 +1,34 @@
+Program main 
+begin 
+
+print "Please enter your name." 
+input name
+message = Namefunction(name) 
+print name,message
+end 
+
+function(name) 
+begin
+
+print "hello " name " please enter your age." 
+input age 
+agecal(age) 
+message = agecal(age) 
+return message
+
+end 
+
+agecal(age) 
+begin 
+
+if age >25 then 
+message = "youre too old." 
+elseif age 17< and >25 then 
+message = "You qualify" 
+elseif age 17> then 
+message = "youre too young" 
+endif 
+
+return message
+
+end 

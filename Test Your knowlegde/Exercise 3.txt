@@ -1,0 +1,23 @@
+Begin 
+
+     for x from 1 to 100 , 1++ 
+     print "please enter a number." 
+     input number  
+     print "please enter an option either multiply by 4 (a) 
+or test if the number is possitive or negitive(b)." 
+     input choice 
+     
+if choice = "a" then 
+     newnumber = number*4 
+elseif choice = "b" then 
+
+if number >1 then 
+    answer = "negitive"
+    newnumber = number + 10  
+else
+    answer = "possitive" 
+endif 
+
+print newnumber,choice,number
+
+End 

@@ -1,0 +1,38 @@
+Begin 
+
+     averageprec = 0
+dowhile studno not = "000" and processed not = 20 
+
+     print "please enter the following information."
+     input studno,mark,possmark,gender
+     percentage = possmark/mark*100
+     totpercent = totpercent+percentage
+     processed = prosessed + 1 
+
+if percentage  >0 and <59 then 
+
+     message = "fail" 
+
+elseif percentage >60 and <79 then 
+
+     message = "Pass" 
+
+elseif percentage >80 and <100 then 
+
+     message = "distinction"
+
+    if gender = "f" then 
+    female= female + 1 
+    endif
+
+endif 
+endfor 
+
+     average = totpercent/processed
+     print female,average
+
+
+enddo
+
+
+

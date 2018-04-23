@@ -1,0 +1,41 @@
+Begin 
+
+    average = 0 
+    highest = 0 
+    lowest  = 0 
+
+    print "please enter the melting points." 
+
+for x from 1 to 20 
+
+   input value 
+   array[x] = value
+   average = average + array[x]
+
+endfor 
+
+   highest = array[1]
+   lowest  = array[1]
+ 
+for x from 1 to 20 
+
+if highest < array[x+1] 
+
+   highest = array[x+1] 
+
+endif 
+
+if lowest > array[x+1] 
+
+   lowest = array[x+1]
+ 
+endif 
+endfor 
+
+   average = average/20 
+   print "the average " average "the highest " highest "The lowest " lowest 
+
+End 
+
+
+   

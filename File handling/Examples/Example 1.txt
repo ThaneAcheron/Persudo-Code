@@ -1,0 +1,39 @@
+#record
+#rec = empname, empnumber, gender, gpay 
+#end record
+
+Begin
+
+    open employee.fle for input
+    open hightax.fle for output 
+    read rec from employee.file 
+
+while not EOF from employee.fle
+if rec.gender = "M" and gpay > 5000 then 
+
+    write rec to hightax.fle
+    totrecrods = totrecords + 1 
+
+endif 
+
+    print rec
+    read rec from employee.fle
+ 
+endwhile 
+
+    close employee.fle
+    close hightax.fle 
+    open hightax.fle for input 
+    read rec from hightax.fle 
+
+while not EOF from hightax.fle
+
+    print rec 
+    read rec from hightax.fle
+ 
+endwhile 
+
+    close hightax.fle 
+end 
+
+ 

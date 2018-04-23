@@ -1,0 +1,21 @@
+Begin 
+
+for x from 1 to 10 
+
+    input  value 
+    array[x] = value 
+
+endfor 
+ 
+   largest = array[1]
+
+for x from 1 to 10
+   
+  if largest < array[x]
+   
+   largest = array[1]
+
+endif
+endfor
+
+End

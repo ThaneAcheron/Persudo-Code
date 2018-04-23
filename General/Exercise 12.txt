@@ -1,0 +1,47 @@
+Begin 
+
+     one = 0 
+     two = 0 
+     three = 0 
+     four = 0 
+     five = 0 
+
+     print "please enter the number of the canidate (1-5)" 
+     input cannumber 
+
+While cannumber = 0 
+   
+     
+if cannumber = 1 
+
+     one = one + 1 
+
+elseif cannumber = 2 
+
+     two = two + 1 
+
+elseif cannumber = 3
+
+     three = three + 1 
+
+elseif cannumber = 4 
+
+     four = four + 1 
+
+elseif cannumber = 5 
+
+     five = five + 1 
+
+else 
+
+     print "invalid number please re-enter" 
+
+endif 
+
+     print "please enter the number of the canidate (1-5)" 
+     input cannumber 
+endwhile 
+
+print one,two,three,four,five
+
+End

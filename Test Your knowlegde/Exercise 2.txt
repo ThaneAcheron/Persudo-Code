@@ -1,0 +1,19 @@
+Begin 
+
+     for x from 1 to 50 
+     print "please enter a number" 
+     input number
+     print "would you like to multiply by 4? (A) or half the number? (b) 
+     input choice 
+
+     if choice = "a" then 
+     newnumber = number*4 
+     elseif choice = "b" then 
+     newnumber = number/2 
+     else 
+     print "invalid choice" 
+     newnumber = 0 
+     endif 
+ 
+     print newnumber 
+End 

@@ -1,0 +1,10 @@
+Begin  
+
+print "Please enter the cost per litre, distance traveled and liters per 100km" 
+
+input costperliter,distance,litersper
+
+total = costperliter*costperliter*distance
+
+print "the total cost is " total
+

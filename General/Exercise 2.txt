@@ -1,0 +1,33 @@
+Begin 
+
+    one = 0 
+    two = 0 
+    three = 0 
+
+Input Nocars 
+
+for x from 1 to Nocars , 1++  
+
+    Print "Enter the car type /n 1 = luxury 2 = commer = Sedan 
+    Input cartype     
+If  cartype = 1 
+
+    one = one + 1 
+
+elseif cartype = 2 
+   
+    two = two + 1
+
+elseif cartype = 3
+    
+    three = three + 1
+ 
+endif 
+
+endfor 
+
+Print "there are " one " luxury cars" 
+Print "there are " two " commercial cars" 
+Print "there are " three " sedan cars" 
+
+   

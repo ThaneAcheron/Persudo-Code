@@ -1,0 +1,25 @@
+Begin   
+     print "please enter the flight detials." 
+     input number,name,age,gender,price 
+     discount = 0 
+
+while age not = 0 
+
+if age <18 then 
+
+     price = price*0.10 
+     discount = distcount + 1 
+
+elseif age >80 and gender = "F" then 
+  
+     price = price*0.15
+     discount = discount + 1    
+
+endif 
+
+     print name,price,number 
+
+endwhile 
+
+print "total number of people with discount: " discount 
+

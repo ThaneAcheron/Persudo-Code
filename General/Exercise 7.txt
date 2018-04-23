@@ -1,0 +1,19 @@
+Begin 
+
+     profit = 0 
+     endprofit
+     input costprice
+
+while costpice = 0 
+
+     input sellingprice
+     profit = costprice - sellingprice
+     endprofit = endprofit + profit 
+     input sellingprice, costprice
+
+ 
+endwhile 
+ 
+     print "the profit is" endprofit 
+End 
+

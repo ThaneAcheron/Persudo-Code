@@ -1,0 +1,45 @@
+#record 
+#emp.rec = empnumber, empname, rate, hoursworked
+#endrecord 
+
+#record
+#gprec = Gpay 
+#endrecord 
+
+Begin 
+
+open employee.fle for input 
+open grosspay.fle for output 
+read rec
+
+while not EOF for employee.fle 
+
+gpay = emp.rate*emp.hoursworked 
+totgpay = totgpay + gpay
+write gpay to grosspay.fle 
+read emprec from employee.fle
+
+endwhile 
+
+write totgpay to grosspay.fle 
+print totgpay
+
+close grosspay.fle
+close employee.fle 
+
+totgpay = 0 
+open pay.fle for input 
+read gprec from pay.fle 
+
+while not EOF
+totpay = totgpay + Gpay.gpay 
+read gprec 
+endwhile 
+
+print totpay 
+close pay.fle
+
+end
+
+
+

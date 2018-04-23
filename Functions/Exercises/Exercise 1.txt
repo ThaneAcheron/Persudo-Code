@@ -1,0 +1,43 @@
+Program Convert
+Begin 
+
+print "please input the maxium tempretrues in the last two days." 
+
+input temp1,temp2 
+
+result = function convert(temp1,temp2) 
+print result 
+message = function message(temp1,temp2) 
+print message 
+end 
+
+
+Function convert(Ftemp1,Ftemp2) 
+begin 
+
+Ctemp1 = Ftemp1/9 (-32) 
+Ctemp2 = Ftemp1/9 (-32) 
+return 
+
+end 
+
+function message (temp1,temp2) 
+
+if temp1 = temp2 then 
+message = "the tempretures were the same." 
+elseif temp1 > temp2 then 
+message "day one was hotter." 
+else 
+message = "day two was hotter." 
+endif 
+
+return message 
+
+end 
+
+
+
+
+
+
+

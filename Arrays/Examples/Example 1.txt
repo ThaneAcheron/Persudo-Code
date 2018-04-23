@@ -1,0 +1,20 @@
+Begin 
+
+     print "please enter the number of marks to be input."
+     input amount 
+
+for x from 1 to amount , 1++
+
+     input marks[x] 
+     total = total + marks[x]
+
+endfor
+
+    average = total/amount
+    print "the average is: " , average
+
+End
+
+
+
+     

@@ -1,0 +1,13 @@
+Begin 
+
+    Array[4,2] 
+
+for x from 1 to 4 , 1++
+ for y from 1 to 2 , 1++ 
+
+   input array[x,y] 
+ 
+ endfor 
+endfor 
+
+End

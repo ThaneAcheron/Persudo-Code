@@ -1,0 +1,32 @@
+Begin 
+
+    himark = 0 
+    lomark = 0 
+    total  = 0
+    hiterm = 0 
+    loterm = 0  
+  
+for x from 1 to 4 , 1 ++ 
+
+    input = terms[x] 
+    lastmark = x -1 
+
+if terms[lastmark] < terms[x] 
+   
+    lomark = terms[x] 
+    loterm = x
+
+elseif terms[lastmark] > terms[x] 
+
+    himark = terms [x]
+    hiterm = x
+
+endif 
+
+    total = term[x] + total 
+
+endfor 
+
+    print "The total: " , total "The highest mark: " himark "The lowest mark: " lomark "." 
+
+End 

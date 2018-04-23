@@ -1,0 +1,10 @@
+Begin 
+   
+    print "please input the amount of secconds." 
+    Input secconds 
+ minuttes = secconds/60 
+ hours = secconds/120
+
+print secconds " is equal to " minuttes " minuttes " hours " hours" 
+
+End

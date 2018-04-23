@@ -1,0 +1,48 @@
+#record 
+#studrec = studname,studno,feespayed
+#endrecord 
+
+Begin 
+
+open student.fle. for input 
+open paid.fle for output 
+open arrears.fle for output 
+
+totpayed = 0 
+read studrec from student.fle
+
+while not EOF studrec
+
+if feespayed = "Y" 
+
+write studrec to paid.fle 
+totpayed = totpayed + 1 
+
+elseif feespayed = "N" 
+
+write studrec to arrears.fle
+
+endif 
+
+read studrec from student.fle 
+
+close student.fle 
+close paid.fle
+close arrears.fle 
+open arrears.fle for input 
+read studrec from arrears.fle 
+
+while not EOF arrears.fle 
+
+print studerec 
+read studrec from arrears.fle 
+
+endwhile 
+
+close arrears.fle 
+
+end 
+
+
+
+

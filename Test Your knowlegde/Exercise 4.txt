@@ -1,0 +1,16 @@
+Begin 
+
+for x from 1 to 5 
+   
+    input value 
+    array[x] = value 
+    if array[x] > x then 
+    array[x] = x^2 
+    elseif array[x] = x then 
+    array[x] = array[x] + 10 
+    elseif array[x] > x then 
+    array[x] = array[x] sqr 
+    endif 
+
+endfor 
+End 

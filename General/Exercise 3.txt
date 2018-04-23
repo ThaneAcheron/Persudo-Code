@@ -1,0 +1,28 @@
+
+Begin 
+ 
+     Totalstu = 0 
+     Input studentno
+ 
+while studentno = 0 
+
+    Input name,percentage
+
+if percentage >=50 
+
+    msg= "Pass" 
+
+elseif percentage <50 
+
+    msg= "fail" 
+
+endif 
+ 
+    Totalstu = totalstu + 1 
+    Print name,studentno,percentage,msg
+    Input studentno
+
+endwhile 
+
+    print totalstu
+End

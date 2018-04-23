@@ -1,0 +1,40 @@
+#record 
+#emprec = empname,empno,rate,hours
+#endrecord 
+
+#record 
+#Grec = empno,empname,gpay 
+#endrecord 
+
+Begin 
+
+open employee.fle for input 
+open Gross.fle for output 
+read emprec from employee.fle 
+
+while not EOF for employee.fle 
+
+gpay = rate*hours
+grec.empno = emprec.emmpno
+grec.empname = emprec.empname 
+grec.gpay = gpay  
+write gpay,empno,empname to gross.fle
+read emprec from employee.fle 
+
+endwhile 
+
+close employee.fle 
+close gross.fle 
+
+open gross.fle for input 
+read Grec from gross.fle 
+
+while not EOF grosspay.fle
+
+print Grec from gross.fle 
+read Grec from gross.fle 
+
+endwhile 
+
+close gross.fle 
+end 

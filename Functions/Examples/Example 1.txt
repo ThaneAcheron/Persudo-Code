@@ -1,0 +1,27 @@
+Main program()
+begin 
+
+input value1,value2,value3 
+function product(value1,value2,value3) 
+result = function average(value1,value2,value3)
+print "the average is: " result 
+
+end 
+
+
+Function product(value1,value2,value3) 
+Begin
+
+product = vlaue1*value2*value3 
+print product 
+
+end 
+
+
+Function average(value1,value2,value3) 
+begin 
+
+average = value1+value2+value3/3
+return average
+
+end 

@@ -1,0 +1,27 @@
+Begin 
+
+for x from 1 to 8 
+
+   input value 
+   array[x] = value 
+   original = array[x]
+
+if x > array[x]
+
+   array[x] = x
+   array[x] = array[x] + 10 
+
+elseif array[x] = x 
+
+   array[x] = array[x] * 2 
+
+elseif array[x] > x 
+
+   array[x] = x^2 
+
+endif 
+   
+   print "The orignal number was " orignal " The changed number is " array[x] 
+
+endfor 
+End 

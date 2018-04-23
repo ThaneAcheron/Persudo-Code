@@ -1,0 +1,27 @@
+Begin 
+    average = 0  
+    print "please enter the following detials." 
+    input country,totsalary,totele,entertain,maintain,security 
+
+while country not = "zzz" 
+
+    newtotsalary = totsalary*12 
+    newtotele = totele*12 
+    newentertain = entertain*54 
+    
+    totalprice =    newtotsalary+newtotele+newentertain+maintian+security 
+
+    heavyaverage = heavyaverage + average 
+    numberofem = numberofem + 1 
+    average = heavyaverage/numberofem 
+
+    if totalprice < 10 000000 then 
+    over = over+1 
+    endif 
+
+    print totalprice
+
+endwhile 
+
+    print average
+End

@@ -1,0 +1,27 @@
+Begin 
+
+     Male = 0 
+     female = 0 
+
+     Input name 
+while name = "zzz" 
+
+     Input sex
+
+if sex = "female" 
+
+     female = female + 1 
+
+elseif sex = "male" 
+
+     male = male + 1 
+
+endif 
+
+     Input name 
+
+endwhile 
+
+print "females" females: " , " "males:" males
+
+End

@@ -1,0 +1,18 @@
+Begin 
+     print "Enter the type of unit to convert from." 
+     input unittype
+
+if unittype = "feet" 
+
+     print "enter the amount to be converted." 
+     input value
+     newvalue = value* 30.48
+     print value " feet = " newvalue "cm"
+
+elseif unittype = "inches" 
+
+     print "enter the amount to be converted."
+     input value 
+     newvalue = value * 2.54 
+     print value " inches = " newvalue "cm"
+End

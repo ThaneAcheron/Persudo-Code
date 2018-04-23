@@ -1,0 +1,35 @@
+Begin 
+
+     for x from 1 to 200 , 1 ++ 
+     print "Please enter a number." 
+     input number 
+     array[x] =  number 
+     
+     if array[x]>x then 
+     print array[x] 
+     
+
+     evenorodd = array[x]mod 2
+
+     if evenorodd = 0 then 
+     msg = "even" 
+     else 
+     msg = "odd" 
+     endif 
+     
+     print msg 
+      
+     endif
+     elseif array[x]<x then  
+
+     print x 
+
+     else 
+
+     newx = x*2 
+     endif 
+     print newx 
+
+End 
+
+     

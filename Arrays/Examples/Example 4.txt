@@ -1,0 +1,16 @@
+Begin 
+      totkillo = 0 
+for x from 1 to 5 , 1 ++ 
+      carkilo = 0 
+for w from 1 to 7 , 1 ++ 
+     
+      input kilos [x,w] 
+endfor
+
+      totkillo = totkillo + array [x,w] 
+endfor 
+      average = totkillo/35 
+      print "The average is: " average
+End 
+
+    

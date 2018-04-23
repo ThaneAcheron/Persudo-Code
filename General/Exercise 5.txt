@@ -1,0 +1,29 @@
+Begin 
+     fulltime = 0 
+     
+for x from 1 to 50 
+     
+     input name,code,address
+
+if code = 1 
+      
+     msg = "Correspondence"
+
+elseif code = 2 
+
+     msg = "fulltime" 
+     fulltime = fulltime + 1 
+
+else 
+     
+     print "invaild code" 
+
+endif 
+
+     print msg,address,name
+
+endfor 
+
+print fulltime 
+
+End

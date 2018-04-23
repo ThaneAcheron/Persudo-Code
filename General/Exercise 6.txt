@@ -1,0 +1,17 @@
+Begin 
+     Profit = 0
+     Total = 0  
+
+for x from 1 to 10 
+for x from 1 to 5 
+
+     input profit
+     print total
+     total = total + profit  
+     
+endfor 
+endfor 
+
+     print total 
+End 
+
